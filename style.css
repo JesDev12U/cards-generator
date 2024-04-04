@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Protest Riot', sans-serif;
+    text-align: center;
+}
+
+#titulo-principal {
+    font-size: 4rem;
+}
+
+#descripcion {
+    font-size: 2rem;
+}
+
+.zona-cards-title-div {
+    width: auto;
+    margin: auto;
+    background-color: rgba(37, 37, 37, 0.484);
+    width: 30%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+#zona-cards-title {
+    font-size: 3rem;
+    padding: 10px;
+}
+
+#btn-agregar-card,
+#btn-eliminar-card {
+    font-size: 3rem;
+    font-family: 'Protest Riot', sans-serif;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+}
+
+#btn-agregar-card:hover,
+#btn-eliminar-card:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.cards {
+    background-color: rgba(37, 37, 37, 0.275);
+    border-style: dashed;
+    padding: 10px;
+    display: none;
+}
+
+.card {
+    background-color: rgb(170, 169, 169);
+    width: 16%;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+
+figcaption {
+    color: black;
+}
